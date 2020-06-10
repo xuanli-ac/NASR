@@ -24,7 +24,7 @@ Given a normalized fMRI data matrix (T by N), where T is the number of time poin
 % lamlist: set the values of lambda to be tested
 
 % Output:  
-% M: m*1 cell, association matrices of m subjects, saving in a folder named 'Results_M'
+% M: m*1 cell, association matrices of m subjects, saved in a folder named 'Results_M'
 % Para: obj&reconstruction error, for results control
 ```
 
