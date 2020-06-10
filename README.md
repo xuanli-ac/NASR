@@ -1,5 +1,3 @@
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-
 # Non-negative Adaptive Sparse Representation (NASR)
 >Matlab code for calculating non-negative and sparse functional connectivity on fMRI data
 
@@ -7,13 +5,13 @@ The (non-negative) adaptive sparse representation is a technique to calculate th
 
 As a sparse representation method, NASR adopts a trace norm as its regularizer. It adaptively balances the sparsity of l1-norm and the grouping-effect of l2-norm, suitable for processing highly-correlated data. 
 
-Given a normalized fMRI data matrix (\\(T \times N}\\)), where T is the number of time points and N is the number of nodes, this code returns an association matrix (\\(N \times N}\\)).
+Given a normalized fMRI data matrix (T by N), where T is the number of time points and N is the number of nodes, this code returns an association matrix (N by N).
 
 ## Description
 * main.m - main function to perform the calculation
 * cal_assocmatrix.m - Calculate the association matrices given the fMRI data of M subjects
 * solve_nntl.m - solve the optimization of the non-negative trace lasso problem of NASR, by using the alternating direction method
-* get_init_lambda.m - estimate the upper bound of the regularizer parameter \\(\lambda\\) where it achieves the most sparse solution for each sample (node) in the data matrix
+* get_init_lambda.m - estimate the upper bound of the regularizer parameter lambda where it achieves the most sparse solution for each sample (node) in the data matrix
 * ROISignals - folder consists of a sample normalized fMRI data for test, Dn
 
 ## Usage
