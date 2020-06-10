@@ -4,7 +4,8 @@ function [upbd_all,upbd_min] = get_init_lambda ( X )
 %The value of lambda used in NASR should be smaller than the upperbound.
 
 % Input: X is a t*d time series, t time points and d channels/ROIs.
-% Output: lambda_upperbound, upper bound for each sample in X
+% Output: upbd_all, upper bound values for each sample in X
+%         upbd_min, minimum upper bound value across all samples in X    
 
 [dim,num] = size(X) ;
 upbd_all=zeros(num,1);
