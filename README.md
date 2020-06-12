@@ -9,7 +9,7 @@ Given a normalized fMRI data matrix (T by N), where T is the number of time poin
 
 ## Description
 * main.m - main function to perform the calculation
-* cal_assocmatrix.m - Calculate the association matrices given the fMRI data of M subjects
+* cal_assocmatrix.m - calculate the association matrices given the fMRI data of M subjects
 * solve_nntl.m - solve the optimization of the non-negative trace lasso problem of NASR, by using the alternating direction method
 * get_init_lambda.m - estimate the upper bound of the regularizer parameter lambda where it achieves the most sparse solution for each sample (node) in the data matrix
 * ROISignals - folder consists of a sample normalized fMRI data for test, Dn
@@ -35,7 +35,7 @@ Given a normalized fMRI data matrix (T by N), where T is the number of time poin
 
 - Lu, C., Feng, J., Lin, Z., and Yan, S. (2013). **Correlation adaptive subspace segmentation by trace LASSO.** *In: Computer Vision (ICCV), 2013 IEEE International Conference on (Sydney, NSW:IEEE)*, pp. 1345-1352.
 
-- Wang, J., Lu, C., Wang, M., Li, P., Yan, S., and Hu, X. (2014). **Robust face recognition via adaptive sparse representation.** *IEEE Trans. Cybern.*, 44, pp. 2368-2378.
+- Wang, J., Lu, C., Wang, M., Li, P., Yan, S., and Hu, X. (2014). **Robust face recognition via adaptive sparse representation.** *IEEE Trans. Cybern.*, vol. 44, pp. 2368-2378.
 
 - Grave, E., Obozinski, G.R., and Bach, F.R. (2011). **Trace lasso: a trace norm regularization for correlated designs.** *In: Advances in Neural Information Processing Systems (Granada)*, pp. 2187-2195.
 
